@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微信小场景</title>
+	<!--第一个meta标签表示：强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0" name="viewport">
+    <!--第二个meta标签表示：是否删除默认的苹果工具栏和菜单栏，设置Web应用是否以全屏模式运行。-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--第三个meta标签也是iphone的私有标签，它指定的iphone中safari顶端的状态条的样式-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!--第四个meta标签表示：告诉设备忽略将页面中的数字识别为电话号码（iphone）-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--第五个meta标签表示：告诉设备忽略email（android）-->
+    <meta content="email=no" name="format-detection" />
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	
+	<script src="js/zepto.min.js"></script>	
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.2.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/touch.min.js"></script>
+	<script src="js/jquery_1.11.3.min.js"></script>
+</head>
+<body>
+	<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        	<audio id="myaudio" src="img/gongxi.mp3" autoplay loop></audio>
+            <div class="swiper-slide swiper-slide1">
+            	<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            		<img src="img/music_off_8d94020.png" alt=""/>
+            	</div>
+            	<div class="mei ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.5s"></div>
+            	<div class="deng_cir1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4s"></div>
+            	<div class="deng_cir2 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4.5s"></div>
+            	<div class="fire ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="5.5s"></div>
+            	<div class="pic_chun ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s"></div>
+            	<div class="text_jinji ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="3s"></div>
+            	<div class="pic_mudan ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"></div>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+          		<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="border ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            	<div class="gu ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="1s"></div>
+            	<div class="chui_left_wrap ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+            		<div class="chui_left ani infinite" swiper-animate-effect="pulse" swiper-animate-duration="0.3s" swiper-animate-delay="4s"></div>
+            	</div>
+            	<div class="chui_right_wrap ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+            		<div class="chui_right ani infinite" swiper-animate-effect="pulse" swiper-animate-duration="0.3s" swiper-animate-delay="4.1s"></div>
+            	</div>
+            	<div class="shizi ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="3s"></div>
+            	<div class="pic_huanqing ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="4s"></div>
+            	<div class="textauto_wrap ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+            		<div class="textauto ani infinite" swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="4s">
+            			齐咚隆咚强 
+            		</div>
+            	</div>
+            </div>  
+            <div class="swiper-slide swiper-slide3">
+            	<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="fire ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="5.5s"></div>
+            	<div class="pic_bianpao ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0s"></div>
+            	<div class="pic_cai ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4.5s"></div>
+            	<div class="pic_caishen ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s"></div>
+            	<div class="pic_xiangyun_wrap ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="2s" swiper-animate-delay="1s">
+            		<div class="pic_xiangyun ani infinite" swiper-animate-effect="shake" swiper-animate-duration="10s" swiper-animate-delay="3s"></div>
+            	</div>
+            </div>
+            <div class="swiper-slide swiper-slide4">
+           		<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="slide4_bottom ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5s" swiper-animate-delay="0s"></div>
+            	<div class="border ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            	<div class="pic_girl_wrap ani"  swiper-animate-effect="slideInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
+            		<div class="pic_girl ani infinite"  swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="3s"></div>
+            	</div>
+            	<div class="pic_boy_wrap ani"  swiper-animate-effect="slideInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">
+            		<div class="pic_boy ani infinite"  swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="2.5s"></div>
+            	</div>
+            	<div class="pic_jxry ani"  swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="3s"></div>	
+            </div> 
+            <div class="swiper-slide swiper-slide5">
+        		<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="pic_family ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="2.5s"></div>
+            	<div class="text_background ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s"></div>
+            	<div class="text_wrap ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+            		<div class="text ani infinite" swiper-animate-effect="flash" swiper-animate-duration="2s" swiper-animate-delay="2.2s"></div>
+            	</div>
+            	<div class="blue_wrap ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s">
+            		<img class="blue ani infinite" swiper-animate-effect="flash" swiper-animate-duration="3s" swiper-animate-delay="4.5s" src="img/blue_deng.png" alt="" />
+            	</div>
+            	<div class="pink_wrap ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="4s">
+            		<img class="pink ani infinite" swiper-animate-effect="flash" swiper-animate-duration="5s" swiper-animate-delay="5s" src="img/red_deng.png" alt="" />
+            	</div>	
+        		<div class="star_wrap ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="4.5s">
+            		<img class="star ani infinite" swiper-animate-effect="flash" swiper-animate-duration="5s" swiper-animate-delay="5.5s" src="img/6c0a7b2c-3d46-4f94-9aed-b7767d8ffcab-6860.png" alt="" />
+           		</div>
+            </div>	
+            <div class="swiper-slide swiper-slide6">
+            	<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="border ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+				<div class="slide6_bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="2s"></div>
+				<img class="slide6_text ani" src="img/text.png" alt="" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3.6s" swiper-animate-delay="3.5s"/>
+				<div class="slide6_fu_wrap ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="7.2s">
+            		<img class="slide6_fu ani infinite" src="img/fu.png" alt="" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="8.2s"/>
+            	</div>
+            </div>
+            <div class="swiper-slide swiper-slide7">
+           		<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="slide7_text_wrap ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+            		<div class="slide7_text ani infinite" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+            			年夜饭
+            		</div>
+            	</div>
+            	<img class="pic_1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="2s" src="img/u=1024647783,3868721804&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="4.5s" src="img/u=1237533471,2299529663&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_3 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="6s" src="img/u=862182445,1648381131&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_4 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="7.5s" src="img/u=4095095801,2924330902&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_5 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="9s" src="img/u=2895698431,1023623839&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_6 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="10.5s" src="img/u=363509778,3799615613&fm=21&gp=0.jpg" alt="" />
+            	<img class="pic_7 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="12s" src="img/u=1771798475,1354440913&fm=21&gp=0.jpg" alt="" />
+            	<div class="fire ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="13s"></div>
+            </div>
+            <div class="swiper-slide swiper-slide8">
+            	<div class="audio ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            		<img src="img/music_off_8d94020.png" alt="" />
+            	</div>
+            	<div class="border ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+				<img class="pic_zf ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="5.5s" src="img/ff2da0b7-f652-4a70-a72d-359ce647609a.png@0-0-0-0a_279w_70Q_1an.png" alt="" />
+				<div class="logo_wrap ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+					<div class="logo ani infinite" swiper-animate-effect="tada" swiper-animate-duration="1.5s" swiper-animate-delay="6.5s"></div>
+				</div>
+            	<img class="fu1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/fu1.png" alt="" />
+            	<img class="fu2 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/fu2.png" alt="" />
+            	<img class="fu3 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4.5s" src="img/fu3.png" alt="" />
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+</html>
